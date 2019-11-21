@@ -1,16 +1,16 @@
-import React, {Component} from 'react';
+import React from 'react';
+import NavList from '../components/NavList';
 
-class Header extends Component {
-  render() {
-    return (
-      <header className='text-center'>
-        <p>Длинный Подзаголовок Один</p>
-        <p>Ещё более длинный Подзаголовок Два с уточнение первого подзаголовка</p>
-        <h1>Собственно название конторы</h1>
-        <b>Некая поясняющая информация, касающася отличительных черт данной конторы</b>
-      </header>
-    );
-  }
+function Header(props) {
+  return (
+    <header className='text-center'>
+      <div className='d-flex flex-row align-items-center justify-content-start'>
+        <a href='/'><img src='https://via.placeholder.com/100' alt='logo1' /></a>
+        <h1>Собственно название &#8209; конторы</h1>
+      </div>
+      <NavList />
+    </header>
+  );
 }
 
 export default Header;

@@ -9,7 +9,7 @@ class Footer extends Component {
   render() {
     return (
       <footer className='text-center bg-light'>
-        <p>Название конторы. &copy; {this.state.copyYear}</p>
+        <p>The Company Name Goes Here. &copy; {this.state.copyYear}</p>
         <p>mail.box@domain.com</p>
       </footer>
     );
