@@ -8,7 +8,7 @@ class Footer extends Component {
 
   render() {
     return (
-      <footer className="text-center bg-light">
+      <footer className='text-center bg-light'>
         <p>The Company Name Goes Here. &copy; {this.state.copyYear}</p>
         <p>mail.box@domain.com</p>
       </footer>
