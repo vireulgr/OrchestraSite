@@ -9,8 +9,8 @@ class Footer extends Component {
   render() {
     return (
       <footer className='text-center bg-light'>
-        <p>Симфонический оркестр Санкт-Перербурга. &copy; {this.state.copyYear}</p>
-        <p>spb.symphony@gmail.com</p>
+        <p>Название конторы. &copy; {this.state.copyYear}</p>
+        <p>mail.box@domain.com</p>
       </footer>
     );
   }
