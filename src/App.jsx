@@ -8,6 +8,35 @@ import CollectivePage from './pages/Collective';
 import ContactsPage from './pages/Contacts';
 
 function App() {
+  let news = [{
+    eventdatetime: Date(),
+    datetime: Date(),
+    tickets: 'https://google.com',
+    title: 'Заголовок новости/события',
+    text: `Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. 
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+          `
+  },
+  {
+    eventdatetime: null,
+    tickets: null,
+    datetime: Date(),
+    title: 'Заголовок новости/события',
+    text: `Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. 
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+          `
+  }];
+
+  let newsItems = news.map((item) => (<NewsItem newsitem = {item} />));
+
   return (
     <Switch>
 
