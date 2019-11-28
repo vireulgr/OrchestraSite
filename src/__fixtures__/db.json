@@ -1,0 +1,15 @@
+{
+  "events": [
+    { "id": 1, 
+      "title": "first event", 
+      "date": "2012-04-23T18:25:43.511Z",
+      "place": "Moscow"
+    },
+    {
+      "id": 2,
+      "title": "second event",
+      "date": "2015-04-23T18:25:43.511Z",
+      "place": "SPb"
+    }
+  ]
+}
