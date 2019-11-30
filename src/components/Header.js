@@ -1,16 +1,16 @@
-import React, {Component} from 'react';
+import React from 'react';
+import NavList from '../components/NavList';
 
-class Header extends Component {
-  render() {
-    return (
-      <header className='page-header'>
-        <p>Комитет по культуре Санкт-Петербурга</p>
-        <p>Санкт-Петербургское государственное бюджетное учреждение культуры «Петербург-концерт»</p>
-        <h1>Симфонический оркестр Санкт&#8209;Петербурга</h1>
-        <b>Художественный руководитель и главный дирижёр &ndash; народный артист России Сергей Стадлер</b>
-      </header>
-    );
-  }
+function Header(props) {
+  return (
+    <header className='text-center'>
+      <div className='d-flex flex-row align-items-center justify-content-start'>
+        <a href='/'><img src='https://via.placeholder.com/100' alt='logo1' /></a>
+        <h1>Собственно название &#8209; конторы</h1>
+      </div>
+      <NavList />
+    </header>
+  );
 }
 
 export default Header;

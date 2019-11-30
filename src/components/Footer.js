@@ -8,9 +8,9 @@ class Footer extends Component {
 
   render() {
     return (
-      <footer className='page-footer'>
-        <p>Симфонический оркестр Санкт-Перербурга. &copy; {this.state.copyYear}</p>
-        <p>spb.symphony@gmail.com</p>
+      <footer className='text-center bg-light'>
+        <p>The Company Name Goes Here. &copy; {this.state.copyYear}</p>
+        <p>mail.box@domain.com</p>
       </footer>
     );
   }
