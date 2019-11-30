@@ -4,33 +4,41 @@
       "title": "first event",
       "date": "2012-04-23T18:25:43.511Z",
       "eventdate": "2012-04-30T18:25:43.511Z",
-      "place": "Moscow"
+      "tickets": "https://spb.kassir.ru/koncert/zakroy-glaza-i-smotri",
+      "place": {
+        "latitiude": 59.95,
+        "longitude": 30.4
+      }
     },
     {
       "id": 2,
       "title": "second event",
       "date": "2015-04-23T18:25:43.511Z",
       "eventdate": "2012-04-30T18:25:43.511Z",
-      "place": "SPb"
+      "tickets": "https://spb.kassir.ru/koncert/zakroy-glaza-i-smotri",
+      "place": {
+        "latitiude": 59.95,
+        "longitude": 30.4
+      }
     }
   ],
   "news": [
     {
         "id": 1,
         "title": "Title of news 1",
-        "text": "Text of news 1 one ein un uno. Lorem ipsum dolor sit amet. Quick brown fox jumps over a lazy dog",
+        "text": "Text of news 1 one ein un uno. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis, id imperdiet tellus. Curabitur vestibulum, lorem at mattis bibendum, erat quam interdum dolor, a viverra orci massa a velit. Quick brown fox jumps over a lazy dog",
         "date": "2015-01-14T12:32:33.123Z"
     },
     {
         "id": 2,
         "title": "Title of news 2",
-        "text": "Text of news 2 two zwei deux dos. Lorem ipsum dolor sit amet. Quick brown fox jumps over a lazy dog",
+        "text": "Text of news 2 two zwei deux dos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis, id imperdiet tellus. Curabitur vestibulum, lorem at mattis bibendum, erat quam interdum dolor, a viverra orci massa a velit. Quick brown fox jumps over a lazy dog",
         "date": "2015-03-14T13:32:33.123Z"
     },
     {
         "id": 3,
         "title": "Title of news 3",
-        "text": "Text of news 3 three drei trois tres. Lorem ipsum dolor sit amet. Quick brown fox jumps over a lazy dog",
+        "text": "Text of news 3 three drei trois tres. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat rutrum turpis, id imperdiet tellus. Curabitur vestibulum, lorem at mattis bibendum, erat quam interdum dolor, a viverra orci massa a velit. Quick brown fox jumps over a lazy dog",
         "date": "2015-08-03T12:32:33.123Z"
     }
   ]
