@@ -5,7 +5,7 @@ function EventPart(props) {
 
   if (ticketsLink == null || dateTimeStr == null) return null;
   else {
-    return (
+    return
       <footer className='clearfix'>
         <div className='float-right'>
           <p>Билеты</p>
@@ -21,11 +21,11 @@ function EventPart(props) {
 }
 
 class NewsItem extends React.Component {
-  
+
   constructor(props) {
     super(props);
     this.state = {newsitem: props.newsitem};
-    let linkText = '';
+    let linkText = ''
     try {
       linkText = new URL(props.newsitem.tickets).hostname;
     }
