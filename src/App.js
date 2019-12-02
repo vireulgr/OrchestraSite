@@ -11,27 +11,27 @@ function App() {
   return (
     <Switch>
 
-      <Route exact path='/news'>
+      <Route exact path="/news">
         <NewsPage />
       </Route>
 
-      <Route exact path='/events'>
+      <Route exact path="/events">
         <EventsPage />
       </Route>
 
-      <Route exact path='/media'>
+      <Route exact path="/media">
         <MediaPage />
       </Route>
 
-      <Route exact path='/collective'>
+      <Route exact path="/collective">
         <CollectivePage />
       </Route>
 
-      <Route exact path='/contacts'>
+      <Route exact path="/contacts">
         <ContactsPage />
       </Route>
 
-      <Route path='/'>
+      <Route path="/">
         <HomePage />
       </Route>
 

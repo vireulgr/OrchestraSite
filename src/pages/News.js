@@ -3,12 +3,12 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import NewsList from '../components/news/NewsList';
 
-function NewsPage(props) {
+function NewsPage() {
   return (
-    <div className='container'>
+    <div className="container">
       <Header />
 
-      <div className='jumbotron'>
+      <div className="jumbotron">
         <h2>News page</h2>
       </div>
 
