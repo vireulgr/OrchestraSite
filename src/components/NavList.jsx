@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function NavList(props) {
+function NavList() {
   return (
     <ul className="list-group list-group-horizontal justify-content-around">
       <li className="py-1 list-group-item list-group-item-action"><Link className="color-dark h5" to="/news">Новости</Link></li>

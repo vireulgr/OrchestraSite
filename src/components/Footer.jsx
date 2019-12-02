@@ -7,11 +7,12 @@ class Footer extends Component {
   }
 
   render() {
+    const { copyYear } = this.state;
     return (
       <footer className="text-center bg-light">
         <p>
-The Company Name Goes Here. &copy;
-          {this.state.copyYear}
+          The Company Name Goes Here. &copy;
+          {copyYear}
         </p>
         <p>mail.box@domain.com</p>
       </footer>

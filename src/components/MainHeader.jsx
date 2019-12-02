@@ -1,7 +1,7 @@
 import React from 'react';
 import NavList from './NavList';
 
-function MainHeader(props) {
+function MainHeader() {
   return (
     <header className="text-center">
       <div className="mb-2 d-flex flex-row align-items-center justify-content-between">
