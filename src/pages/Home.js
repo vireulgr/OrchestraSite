@@ -2,21 +2,21 @@ import React from 'react';
 import MainHeader from '../components/MainHeader';
 import Footer from '../components/Footer';
 
-function HomePage(props) {
+function HomePage() {
   return (
-    <div className='container'>
+    <div className="container">
       <MainHeader />
 
-      <div className='jumbotron'>
+      <div className="jumbotron">
         <h2>Events ribbon</h2>
       </div>
 
-      <div className='jumbotron'>
+      <div className="jumbotron">
         <h2>Carousel component</h2>
         <p>Текст для подзаголовка</p>
       </div>
 
-      <div className='jumbotron'>
+      <div className="jumbotron">
         <h2>News tiles</h2>
       </div>
 

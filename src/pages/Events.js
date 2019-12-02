@@ -2,12 +2,12 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-function EventsPage(props) {
+function EventsPage() {
   return (
-    <div className='container'>
+    <div className="container">
       <Header />
 
-      <div className='jumbotron'>
+      <div className="jumbotron">
         <h2>Events page</h2>
       </div>
 
