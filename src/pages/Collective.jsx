@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-function CollectivePage(props) {
+function CollectivePage() {
   return (
     <div className="container">
       <Header />

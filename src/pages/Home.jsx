@@ -1,13 +1,15 @@
 import React from 'react';
 import MainHeader from '../components/MainHeader';
 import Footer from '../components/Footer';
-import Events from '../events/EventsList';
 
 function HomePage() {
   return (
-    <div className="container-fluid">
+    <div className="container">
       <MainHeader />
-      <Events />
+
+      <div className="jumbotron">
+        <h2>Events ribbon</h2>
+      </div>
 
       <div className="jumbotron">
         <h2>Carousel component</h2>
