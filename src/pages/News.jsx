@@ -8,9 +8,7 @@ function NewsPage() {
     <div className="container">
       <Header />
 
-      <div className="jumbotron">
-        <h2>News page</h2>
-      </div>
+      <h2>News page</h2>
 
       <NewsList />
 
