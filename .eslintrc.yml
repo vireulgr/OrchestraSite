@@ -15,7 +15,11 @@ parserOptions:
   sourceType: module
 plugins:
   - react
-rules: {}
+rules:
+  react/jsx-props-no-spreading:
+    - error
+    - exceptions:
+      - "Slider"
 settings:
   import/extensions:
   - ".js"

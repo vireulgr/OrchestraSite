@@ -4,19 +4,15 @@ import { format } from 'date-fns';
 import PropTypes from 'prop-types';
 
 function Event(props) {
-  const EventElement = styled.li`
-    margin: 0 20px;
-    border-radius: 15px;
-    display: inline-block;
+  const EventElement = styled.div`
     background-color: #fff;
-
-    &:first-child {
-      margin-left: 0;
-    }
-
-    &:last-child {
-      margin-right: 0;
-    }
+    font-family: 'Roboto Slab', serif;
+    padding: 5px 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #9B9696;
+    margin: 10px 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
   `;
 
   const { item } = props;
@@ -32,7 +28,7 @@ function Event(props) {
         {month}
       </span>
       <h3>{title}</h3>
-      <span>{place}</span>
+      <span className="text-truncate">{place}</span>
     </EventElement>
   );
 }

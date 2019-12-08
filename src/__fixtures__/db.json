@@ -18,6 +18,65 @@
       "place": "Во Владивостоке музыка играла",
       "latitude": 59.95,
       "longitude": 30.4
+    },
+    {
+      "id": 3,
+      "title": "second event",
+      "date": "2015-04-23T18:25:43.511Z",
+      "eventdate": "2012-04-30T18:25:43.511Z",
+      "tickets": "https://spb.kassir.ru/koncert/zakroy-glaza-i-smotri",
+      "place": "Во Владивостоке музыка играла",
+      "latitude": 59.95,
+      "longitude": 30.4
+    },
+    {
+      "id": 4,
+      "title": "second event",
+      "date": "2015-04-23T18:25:43.511Z",
+      "eventdate": "2012-04-30T18:25:43.511Z",
+      "tickets": "https://spb.kassir.ru/koncert/zakroy-glaza-i-smotri",
+      "place": "Во Владивостоке музыка играла",
+      "latitude": 59.95,
+      "longitude": 30.4
+    },
+    { "id": 1,
+      "title": "first event",
+      "date": "2012-04-23T18:25:43.511Z",
+      "eventdate": "2012-04-30T18:25:43.511Z",
+      "tickets": "https://spb.kassir.ru/koncert/zakroy-glaza-i-smotri",
+      "place": "Самый первый концертный зал. город Москва",
+      "latitude": 59.95,
+      "longitude": 30.4
+    },
+    {
+      "id": 2,
+      "title": "second event",
+      "date": "2015-04-23T18:25:43.511Z",
+      "eventdate": "2012-04-30T18:25:43.511Z",
+      "tickets": "https://spb.kassir.ru/koncert/zakroy-glaza-i-smotri",
+      "place": "Во Владивостоке музыка играла",
+      "latitude": 59.95,
+      "longitude": 30.4
+    },
+    {
+      "id": 3,
+      "title": "second event",
+      "date": "2015-04-23T18:25:43.511Z",
+      "eventdate": "2012-04-30T18:25:43.511Z",
+      "tickets": "https://spb.kassir.ru/koncert/zakroy-glaza-i-smotri",
+      "place": "Во Владивостоке музыка играла",
+      "latitude": 59.95,
+      "longitude": 30.4
+    },
+    {
+      "id": 4,
+      "title": "second event",
+      "date": "2015-04-23T18:25:43.511Z",
+      "eventdate": "2012-04-30T18:25:43.511Z",
+      "tickets": "https://spb.kassir.ru/koncert/zakroy-glaza-i-smotri",
+      "place": "Во Владивостоке музыка играла",
+      "latitude": 59.95,
+      "longitude": 30.4
     }
   ],
   "news": [

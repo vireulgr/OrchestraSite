@@ -1,0 +1,10 @@
+.slides .slick-prev, 
+.slides .slick-next {
+    background-color: #000;
+}
+.slick-prev {
+  content: '<';
+}
+.slick-next {
+  content: '>'
+}
