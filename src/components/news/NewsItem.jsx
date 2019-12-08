@@ -49,7 +49,7 @@ class NewsItem extends React.Component {
       <article className="my-2 card shadow-sm">
         <div className="card-header">
           <h4 className="card-title"><Link to={linkTo}>{newsitem.title}</Link></h4>
-          <small className="text-muted">{newsitem.datetime}</small>
+          <small className="text-muted">{newsitem.date}</small>
         </div>
         <div className="card-body">
           <p className="card-text">
