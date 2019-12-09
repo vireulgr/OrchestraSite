@@ -1,9 +1,9 @@
 import React from 'react';
-import NewsItem from './NewsItem';
 import axios from 'axios';
+import NewsItem from './NewsItem';
+import config from '../../config';
 
 class NewsList extends React.Component {
-
   constructor(props) {
     super(props);
     this.state = {
@@ -16,16 +16,36 @@ class NewsList extends React.Component {
     this.loadNewsList();
   }
 
-  loadNewsList() {
-    axios.get('http://localhost:3000/news')
-      .then(resp => this.setState({isLoading: false, newsList: resp.data}))
-      .catch(error => this.setState({isLoading: false, error}));
+  async loadNewsList() {
+    try {
+      const resp = await axios.get(`${config.apiURL}/news`);
+      this.setState({ isLoading: false, newsList: resp.data });
+    } catch (error) {
+      this.setState({ isLoading: false, error: 'API request failed' });
+    }
   }
 
   render() {
-    const { newsList, baseUrl } = this.state;
-    let newsListCmps = {};
-    if (newsList.length > 0) {
+    const {
+      isLoading,
+      error,
+      newsList,
+      baseUrl,
+    } = this.state;
+
+    let newsListCmps = [];
+    if (isLoading) {
+      newsListCmps = (<p>Loading...</p>);
+    } else {
+      if (error != null) {
+        return (
+          <section>
+            Error occured:&nbsp;
+            {error}
+          </section>
+        );
+      }
+
       newsListCmps = newsList.map(
         (item) => (
           <NewsItem
@@ -35,9 +55,6 @@ class NewsList extends React.Component {
           />
         ),
       );
-    }
-    else {
-      newsListCmps = (<p>No data yet</p>);
     }
 
     return (
