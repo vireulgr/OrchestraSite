@@ -1,0 +1,10 @@
+# dependencies
+/venv
+
+# python cache
+*.pyo
+*.pyc
+__pycache__
+
+# database files
+*.sqlite3
