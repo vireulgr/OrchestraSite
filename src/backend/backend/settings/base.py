@@ -28,8 +28,6 @@ def get_env_variable(varName):
         errorMsg = "Set the %s environment variable" % varName
         raise ImproperlyConfigured(errorMsg)
 
-SECRET_KEY = os.environ['SECRET_KEY']
-
 
 # Application definition
 
