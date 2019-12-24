@@ -8,3 +8,6 @@ start:
 		pip install -r requirements.txt; \
 		python ./src/backend/manage.py runserver 8080; \
 	)
+
+freeze:
+	pip freeze | grep -v "pkg-resources" > requirements.txt
