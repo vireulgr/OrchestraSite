@@ -5,7 +5,7 @@ import django_heroku
 
 django_heroku.settings(locals())
 
-print(secret_key)
+SECRET_KEY = os.getenv('SECRET_KEY')
 
 DEBUG = False
 ALLOWED_HOSTS = ['orchestra-fork.herokuapp.com']
