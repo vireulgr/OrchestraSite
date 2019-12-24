@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
-# import django-heroku
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -29,9 +28,7 @@ def get_env_variable(varName):
         errorMsg = "Set the %s environment variable" % varName
         raise ImproperlyConfigured(errorMsg)
 
-SECRET_KEY = get_env_variable('SECRET_KEY')
-
-ALLOWED_HOSTS = []
+SECRET_KEY = os.environ['SECRET_KEY']
 
 
 # Application definition
