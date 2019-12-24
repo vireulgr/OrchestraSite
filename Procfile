@@ -1,1 +1,1 @@
-web: python src/backend/manage.py runserver 0.0.0.0:5000 --settings=backend.settings.production
+web: python src/backend/manage.py runserver --settings=backend.settings.production
