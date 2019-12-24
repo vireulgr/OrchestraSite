@@ -1,4 +1,16 @@
 # -*- coding: utf-8 -*-
+import os
 from .base import *
 
 DEBUG = True
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'orchestrasite',
+        'USER': 'alex',
+        'PASSWORD': os.getenv('DB_PASSWORD'),
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
+}
