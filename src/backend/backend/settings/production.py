@@ -7,7 +7,7 @@ django_heroku.settings(locals())
 
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = ['orchestra-fork.herokuapp.com']
 
 SESSION_COOKIE_SECURE = True
