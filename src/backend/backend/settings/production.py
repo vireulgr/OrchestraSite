@@ -9,6 +9,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 DEBUG = True
 ALLOWED_HOSTS = ['orchestra-fork.herokuapp.com']
+print(ALLOWED_HOSTS)
+print(SECRET_KEY)
 
 SESSION_COOKIE_SECURE = True
 
