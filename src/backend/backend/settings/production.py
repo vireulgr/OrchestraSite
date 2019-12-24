@@ -2,6 +2,6 @@
 from .base import *
 
 DEBUG = False
-ALLOWED_HOSTS = ['0.0.0.0']
+ALLOWED_HOSTS = ['orchestra-fork.herokuapp.com']
 
 SESSION_COOKIE_SECURE = True
