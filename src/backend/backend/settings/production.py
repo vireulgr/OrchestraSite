@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 from .base import *
 import dj_database_url
+import django_heroku
+
+django_heroku.settings(locals())
 
 DEBUG = False
 ALLOWED_HOSTS = ['orchestra-fork.herokuapp.com']
