@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
-# import django-heroku
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -28,10 +27,6 @@ def get_env_variable(varName):
     except KeyError:
         errorMsg = "Set the %s environment variable" % varName
         raise ImproperlyConfigured(errorMsg)
-
-SECRET_KEY = get_env_variable('SECRET_KEY')
-
-ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -85,16 +80,16 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'orchestrabackend',
-        'USER': 'orchestraadmin',
-        'PASSWORD': 'P@ssw0rd',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'orchestrabackend',
+#         'USER': 'orchestraadmin',
+#         'PASSWORD': 'P@ssw0rd',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }
 
 
 # Password validation
@@ -119,7 +114,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
-LANGUAGE_CODE = 'Ru'
+LANGUAGE_CODE = 'ru'
 
 TIME_ZONE = 'UTC'
 
