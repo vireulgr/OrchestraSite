@@ -1,1 +1,1 @@
-web: python src/backend/manage.py runserver --settings=backend.settings.production
+web: gunicorn backend.wsgi --log-file --settings=backend.settings.production
