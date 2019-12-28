@@ -1,1 +1,0 @@
-{"version":3,"sources":["EventsList.scss"],"names":[],"mappings":"AAAA,wCAEI,qBAAsB,CACzB,YAEC,WAAY,CACb,YAEC,WACF","file":"main.ae39a7bd.chunk.css","sourcesContent":[".slides .slick-prev, \n.slides .slick-next {\n    background-color: #000;\n}\n.slick-prev {\n  content: '<';\n}\n.slick-next {\n  content: '>'\n}"]}
