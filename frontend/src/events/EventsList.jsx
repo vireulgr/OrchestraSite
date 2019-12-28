@@ -13,13 +13,15 @@ import Event from '../event/Event';
 class EventsList extends React.Component {
   constructor() {
     super();
+    console.log(config);
+    console.log(process.env);
     this.state = {
       data: [],
     };
   }
 
   async componentDidMount() {
-    const { data } = await axios.get(`${config.apiURL}/events`);
+    const { data } = await axios.get('http://localhost:8000/events');
     this.setState({
       data,
     });
