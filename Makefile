@@ -1,5 +1,8 @@
 SHELL := /bin/bash
 
+setHooks:
+	git config core.hooksPath .githooks
+
 start:
 	( \
 		cd frontend && npm run start & \
