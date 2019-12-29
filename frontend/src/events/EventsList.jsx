@@ -21,7 +21,7 @@ class EventsList extends React.Component {
   }
 
   async componentDidMount() {
-    const { data } = await axios.get('http://localhost:8000/events');
+    const { data } = await axios.get('api/events');
     this.setState({
       data,
     });

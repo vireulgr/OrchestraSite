@@ -23,10 +23,10 @@ from events import views
 
 router = routers.DefaultRouter()
 router.register(r'events', views.EventViewSet)
-router.register(r'', index)
 
 urlpatterns = [
-    path('', include(router.urls)),
+    path('', index),
+    path('api/', include(router.urls)),
     path('admin/', admin.site.urls),
     path('/', include('rest_framework.urls', namespace='rest_framework'))
 ] + staticfiles_urlpatterns()

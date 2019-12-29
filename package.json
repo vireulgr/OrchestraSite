@@ -18,8 +18,8 @@
     "styled-components": "^4.4.1"
   },
   "scripts": {
+    "postinstall": "cd frontend && npm run build",
     "start": "cd frontend && react-scripts start",
-    "build": "cd frontend && react-scripts build",
     "test": "cd frontend && react-scripts test",
     "eject": "cd frontend && react-scripts eject",
     "lint": "npx eslint --ext .jsx,.js frontend/src/"
