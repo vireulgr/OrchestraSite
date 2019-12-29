@@ -18,11 +18,11 @@
     "styled-components": "^4.4.1"
   },
   "scripts": {
-    "start": "cd frontend && react-scripts start",
-    "build": "cd frontend && react-scripts build",
-    "test": "cd frontend && react-scripts test",
-    "eject": "cd frontend && react-scripts eject",
-    "lint": "npx eslint --ext .jsx,.js frontend/src/"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "npx eslint src/**/*.{js,jsx}"
   },
   "eslintConfig": {
     "extends": "react-app"
