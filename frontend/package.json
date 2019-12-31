@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "PUBLIC_URL=static react-scripts build",
+    "build": "npm ci && PUBLIC_URL=static react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "npx eslint src/**/*.{js,jsx}"
