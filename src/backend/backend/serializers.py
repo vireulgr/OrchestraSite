@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# https://habr.com/ru/post/160117/
 from django.contrib.auth.models import User
 from rest_framework import routers, serializers, viewsets
 
