@@ -1,0 +1,6 @@
+# for django
+unset DJANGO_SETTINGS_MODULE
+unset SECRET_KEY
+unset DB_DATABASE
+unset DB_USER
+unset DB_PASSWORD

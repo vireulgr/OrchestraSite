@@ -3,13 +3,16 @@ import os
 from .base import *
 
 DEBUG = True
+#print(get_env_variable('DB_DATABASE'))
+#print(get_env_variable('DB_USER'))
+#print(get_env_variable('DB_PASSWORD'))
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'orchestrasite',
-        'USER': 'alex',
-        'PASSWORD': os.getenv('DB_PASSWORD'),
+        'NAME': get_env_variable('DB_DATABASE'),
+        'USER': get_env_variable('DB_USER'),
+        'PASSWORD': get_env_variable('DB_PASSWORD'),
         'HOST': 'localhost',
         'PORT': '5432',
     }
